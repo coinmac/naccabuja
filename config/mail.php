@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => 'info@naccabuja.org',
+    'username' => env('MAIL_USERNAME'),
 
-    'password' => 'Oyinkan1',
+    'password' => env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
