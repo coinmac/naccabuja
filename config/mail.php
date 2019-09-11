@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smpt.gmail.com'),
+    'host' => env('MAIL_HOST', 'mail.naccabuja.org'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 587),
+    'port' => env('MAIL_PORT', 465),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'gcictng@gmail.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'info@naccabuja.org'),
         'name' => env('MAIL_FROM_NAME', 'NACC-ABUJA'),
     ],
 
@@ -71,7 +71,7 @@ return [
     |
     */
 
-    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
 
     /*
     |--------------------------------------------------------------------------
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('gcictng@gmail.com'),
+    'username' => 'info@naccabuja.org',
 
-    'password' => env('1086prayer'),
+    'password' => 'Oyinkan1',
 
     /*
     |--------------------------------------------------------------------------
